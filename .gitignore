@@ -1,0 +1,13 @@
+# Compiled binary
+system_monitor
+
+# Log output (generated at runtime)
+logs/
+
+# Vim swap files
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
