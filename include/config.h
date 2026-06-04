@@ -13,13 +13,13 @@
 #define CONFIG_H
 
 /** Alert threshold for CPU usage in percent (0.0 - 100.0) */
-#define CPU_THRESHOLD       80.0f
+#define CPU_THRESHOLD       70.0f
 
 /** Alert threshold for memory usage in percent (0.0 - 100.0) */
-#define MEM_THRESHOLD       75.0f
+#define MEM_THRESHOLD       70.0f
 
 /** Sampling interval in seconds between each measurement */
-#define POLL_INTERVAL_SEC   2
+#define POLL_INTERVAL_SEC   5
 
 /** Path to the log file where alerts are written */
 #define LOG_FILE            "logs/monitor.log"
